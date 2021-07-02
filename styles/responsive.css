@@ -1,0 +1,29 @@
+@media (max-width: 900px) {
+  .header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+    height: 60vh;
+  }
+  .header-img {
+    margin: 50px auto;
+  }
+
+  .header-img img {
+    height: 400px;
+  }
+
+  .title {
+    font-size: 60px;
+  }
+
+  .title-box {
+    margin-top: 80px;
+  }
+
+  .menu-item {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Krona+One&display=swap");
+
+:root {
+  --primary-green: #1cff00;
+  --secundary-green: #16cc00;
+  --dark-blue: #2f2e41;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Amatic SC", cursive;
+  /* font-family: "Krona One", sans-serif;
+  font-family: "Abel", sans-serif; */
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  width: 100%;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  transition: all 0.2s;
+}
+
+.menu-item {
+  margin: 2rem;
+  font-size: 2.8rem;
+}
+
+.menu-item a:hover {
+  color: rgb(12, 201, 94);
+}
+
+.button-signin {
+  color: var(--white);
+  padding: 1rem 2rem;
+  background-color: var(--secundary-green);
+  border-radius: 10rem;
+  font-family: "Abel", sans-serif;
+  transition: all 0.2s;
+  font-size: 2rem;
+}
+
+.button-signin:hover {
+  background-color: #14aa00;
+}
+
+.header {
+  height: 100vh; /*Altura do tamanho da tela do usuario */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-img img {
+  max-height: 60rem;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: var(--secundary-green);
+  font-size: 15rem;
+  font-family: "Krona One", sans-serif;
+}
+
+.sub-title {
+  color: var(--dark-blue);
+  font-size: 5rem;
+  font-family: "Amatic SC", cursive;
+  margin-bottom: 3rem;
+}
